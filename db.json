@@ -1,0 +1,19 @@
+{
+    "customers":[
+        {
+            "name":"Farzan V M",
+            "phone":"97473745934",
+            "address":"32 jhomese",
+            "age":25,
+            "Id":1
+        },
+        {
+            "name":"Tony",
+            "phone":"1232344323",
+            "address":"45 homes street",
+            "age":27,
+            "Id":2
+        }
+
+    ]
+}

@@ -1,0 +1,23 @@
+<h1>Customer List</h1>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Address</th>
+        <th>Age</th>
+        <th>Action</th>
+    </tr>
+    @for (customer of customer_list; track $index) {
+        <tr>
+            <td>{{customer.Id}}</td>
+            <td>{{customer.name}}</td>
+            <td>{{customer.phone}}</td>
+            <td>{{customer.address}}</td>
+            <td>{{customer.age}}</td>
+            <td><button (click)="editCustomer(customer)">EDIT</button><br>
+                <button (click)="deleteCustomer(customer)">DELETE</button></td>
+
+        </tr>
+    }
+</table>
